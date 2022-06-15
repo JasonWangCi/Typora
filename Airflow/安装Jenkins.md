@@ -16,3 +16,11 @@ Update the Jenkins version: brew upgrade jenkins-lts
  sudo cd /Users/jason/.jenkins/secrets
 
 cat initialAdminPassword
+
+
+
+Localhost:8080
+
+
+
+https://www.jenkins.io/download/lts/macos/
