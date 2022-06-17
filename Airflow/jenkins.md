@@ -24,3 +24,21 @@ Localhost:8080
 
 
 https://www.jenkins.io/download/lts/macos/
+
+
+
+
+
+```java
+docker run -d  \                                     
+--name jk -u root \
+-p 9090:8080  \
+-v /var/jenkins_home:/var/jenkins_home  \
+jenkinsci/blueocean
+```
+
+
+
+
+
+![image-20220616111516367](/Users/jason/Library/Application Support/typora-user-images/image-20220616111516367.png)
