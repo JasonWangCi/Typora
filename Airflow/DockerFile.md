@@ -4,6 +4,8 @@
 
 FROM: 一般作为第一行，引用的是哪个镜像；
 
+MAINTAINER： name email
+
 ENV:    设置变量
 
 RUN:  	
