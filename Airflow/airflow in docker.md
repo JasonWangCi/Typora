@@ -146,3 +146,22 @@ mysql+mysqldb://<user>:<password>@<host>[:<port>]/<dbname>
 ```
 修改：sql_alchemy_conn = mysql+mysqldb://root:password@mysqlip:3306/airflow
 ```
+
+
+
+docker-compose:
+
+```
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.2/docker-compose.yaml'
+
+mkdir -p ./dags ./logs ./plugins
+
+```
+
+
+
+```java
+
+
+```
+

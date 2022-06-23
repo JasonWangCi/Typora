@@ -16,19 +16,25 @@ Step 3：
 
 在docker-compose.yml文件目录下，新建 dags, logs, plugins文件夹
 
+
+
 Step 4:
 
 echo -e "AIRFLOW_UID=$(id -u) \nAIRFLOW GID=0" -env
 
-Step 5:
+Step 5: 初始化airflow ： 
 
-初始化airflow ： docker-compose up airflow-init
+docker-compose up airflow-init
 
-Step 6:
+Step 6:启动服务（localhost:8080） 
 
-启动服务（localhost:8080） docker-compose up
-
-
+docker-compose up
 
 
+
+echo -e "AIRFLOW_UID=$(id -u) \nAIRFLOW GID=0" -env
+
+docker-compose up airflow-init
+
+docker-compose up
 
