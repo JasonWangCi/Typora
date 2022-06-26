@@ -160,7 +160,10 @@ mkdir -p ./dags ./logs ./plugins
 
 
 
+测试dockerfile
+
 ```java
+ docker build -f /path/to/a/Dockerfile .
 
 
 ```

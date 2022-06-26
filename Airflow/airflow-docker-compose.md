@@ -20,7 +20,7 @@ Step 3：
 
 Step 4:
 
-echo -e "AIRFLOW_UID=$(id -u) \nAIRFLOW GID=0" -env
+echo -e "AIRFLOW_UID=$(id -u)" > .env
 
 Step 5: 初始化airflow ： 
 
@@ -32,9 +32,14 @@ docker-compose up
 
 
 
-echo -e "AIRFLOW_UID=$(id -u) \nAIRFLOW GID=0" -env
+echo -e "AIRFLOW_UID=$(id -u)" > .env
 
 docker-compose up airflow-init
 
 docker-compose up
 
+
+
+
+
+docker build . -f Dockerfile --pull --tag my-image:0.0.1
