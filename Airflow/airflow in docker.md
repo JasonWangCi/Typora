@@ -104,6 +104,8 @@ docker rm container_id
 
 强制删除所有images： docker rmi -f $(docker images -aq)
 
+docker run -d -p 8080:8080 4678323f5e69
+
 
 
 docker build -t hello .
